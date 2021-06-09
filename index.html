@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/master.css">
+    <title></title>
+  </head>
+  <body>
+    <h1>Simple Calculator </h1>
+        <div class="calculator">
+
+
+          <div class="result calculator__display">0</div>
+
+
+          <div class="calculator__keys">
+          <div class="second-row">
+            <button class="global">7</button>
+            <button class="global">8</button>
+            <button class="global">9</button>
+            <button class="global" data-action="divide">/</button>
+
+          </div>
+          <div class="third-row">
+            <button class="global">4</button>
+            <button class="global">5</button>
+            <button class="global">6</button>
+            <button class="global" data-action="multiply">*</button>
+            </div>
+          <div class="fourth-row">
+            <button class="global">1</button>
+            <button class="global">2</button>
+            <button class="global">3</button>
+            <button class="global" data-action="subtract">-</button>
+            </div>
+          <div class="conflict">
+            <div class="left">
+              <button class="big">0</button>
+              <button class="small" data-action="decimal">.</button>
+              <button class="red small white-text top-margin" data-action="clear">reset</button>
+              <button class="green white-text big top-margin" data-action="calculate">=</button>
+                </div>
+            <div class="right">
+              <button class="global grey plus" data-action="add">+</button>
+                </div>
+          </div>
+        </div>
+        </div>
+
+        <script type="text/javascript" src="js/master.js"></script>
+
+  </body>
+</html>
